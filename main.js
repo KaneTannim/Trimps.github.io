@@ -4323,7 +4323,7 @@ function gather() {
 
 function getPlayerModifier(){
 	var playerModifier = game.global.playerModifier;
-	return calcHeirloomBonus("Shield", "playerEfficiency", playerModifier);
+	return 1024000;
 }
 
 function calculateTimeToMax(resource, perSec, toNumber, fromGather) {
