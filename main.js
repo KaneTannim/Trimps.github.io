@@ -4323,7 +4323,7 @@ function gather() {
 
 function getPlayerModifier(){
 	var playerModifier = game.global.playerModifier;
-	return 1024000;
+	return 1000000000;
 }
 
 function calculateTimeToMax(resource, perSec, toNumber, fromGather) {
